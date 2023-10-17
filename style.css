@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background: #1877f2;
+    padding: 8px 0;
+}
+
+.logo{
+    float: left;
+    color: white;
+}
+
+.logo h2{
+    font-size: 33px;
+    font-weight: bolder;
+    font-family: 'Helvetica', sans-serif;
+}
+
+form.form-login{
+    float: right;
+}
+
+.form-login .form-element{
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+.form-login p{
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.form-element input[type=email],
+.form-element input[type=password]{
+    margin-top: 4px;
+    border-radius: 3px;
+    border: 0;
+    height: 22px;
+    padding-left: 3px;
+}
+
+.form-element input[type=submit]{
+    width: 50px;
+    cursor: pointer;
+    border: 0;
+    background: #1969e5;
+    border: 2px solid #215ab2;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.form-element input[type=submit]:hover{
+    background: #215ab2;
+}
+
+section.main{
+    background: linear-gradient(white, #d3d8e8);
+    padding: 40px 0;
+}
+
+.img-people{
+    float: left;
+    width: 70%;
+    opacity: 0.9;
+}
+
+.img-people img{
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+.open-account{
+    width: 30%;
+    float: left;
+}
+
+.open-account h2{
+    color: black;
+    font-size: 35px;
+}
+
+.open-account h3{
+    font-size: 19px;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+form.create-account{
+    margin-top: 10px;
+}
+
+.w50{
+    padding: 0 5px;
+    width: 50%;
+    float: left;
+}
+
+.w100{
+    padding: 0 5px;
+    width: 100%;
+    float: left;
+}
+
+form.create-account input{
+    width: 100%;
+}
+
+form.create-account input[type=email],
+form.create-account input[type=text],
+form.create-account input[type=password]{
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid #a5dcff;
+    border-radius: 8px;
+    margin-top: 7px;
+}
+
+form.create-account input[type=submit]{
+    height: 40px;
+    background: linear-gradient(#67ae55, #578843);
+    color: white;
+    cursor: pointer;
+    border: 0;
+    max-width: 200px;
+    font-size: 19px;
+    margin-top: 7px;
+    border-top: 2px solid rgb(26, 155, 26);
+    border-bottom: 2px solid #578843;
+    border-radius: 4px;
+}
