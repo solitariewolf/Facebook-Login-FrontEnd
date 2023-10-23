@@ -120,6 +120,8 @@ form.create-account{
 
 form.create-account input{
     width: 100%;
+    border-radius: 8px;
+    margin-top: 7px;
 }
 
 form.create-account input[type=email],
@@ -129,8 +131,6 @@ form.create-account input[type=password]{
     padding-left: 10px;
     font-size: 20px;
     border: 1px solid #a5dcff;
-    border-radius: 8px;
-    margin-top: 7px;
 }
 
 form.create-account input[type=submit]{
@@ -141,8 +141,106 @@ form.create-account input[type=submit]{
     border: 0;
     max-width: 200px;
     font-size: 19px;
-    margin-top: 7px;
     border-top: 2px solid rgb(26, 155, 26);
     border-bottom: 2px solid #578843;
     border-radius: 4px;
+}
+
+form .w100 h2{
+    margin-top: 10px;
+    color: #1d2129;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+form select.birth{
+    float: left;
+    margin-top: 5px;
+}
+
+.input-radio{
+    margin: 8px 10px;
+    float: left;
+}
+.input-radio h2{
+    display: inline-block;
+}
+.input-radio input[type=radio]{
+    width: auto !important;
+    display: inline-block;
+}
+
+section.linguas{
+    padding: 30px 0;
+    background: white;
+}
+
+section.linguas a{
+    padding-right: 15px;
+    font-size: 12px;
+    color: #365899;
+    text-decoration: none;
+}
+
+section.linguas a.selected-lingua{
+    color: #737373;
+}
+
+section.linguas .center{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.rodape{
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.rodape li{
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .form-login{
+        margin-top: 17px;
+        float: none;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .form-login .form-element{
+        display: block;
+        margin-right: 10px 0;
+    }
+    .form-element p{
+        color: white;
+        font-size: 14px;
+    }
+    .form-element input[type=email],
+    .form-element input[type=password]{
+        margin-top: 4px;
+        border: 0;
+        height: 22px;
+        padding-left: 3px;
+        width: 100%;
+        max-width: 320px;
+    }
+    .form-element input[type=submit]{
+        width: 130px;
+        margin-top: 15px;
+    }
+    .img-people{
+        display: none;
+    }
+    .open-account{
+        width: 100%;
+    }
 }
